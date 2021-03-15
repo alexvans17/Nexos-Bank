@@ -14,8 +14,9 @@ class AuthPresenterImpl(private val authInteractor: AuthInteractor):
 
     private var authView: AuthView? = null
 
-    override fun setView(view: AuthView) {
+    override fun setView(view: AuthView): Boolean {
         this.authView = view
+        return true
     }
 
     override fun login(username: String, password: String) {

@@ -15,7 +15,9 @@ class ApiAuthImpl: ApiAuth {
     override fun login(username: String, password: String) {
         try {
             if (username=="admin" && password=="12345"){
-                val fakeUser = LoggedInUser(java.util.UUID.randomUUID().toString(), "Jane Doe")
+                val fakeUser = LoggedInUser(
+                    java.util.UUID.randomUUID().toString(),
+                    "Jane Doe", "+9999999", "janedoe@admin.com")
                 repository.successLogin(fakeUser)
             }else
                 repository.failLogin("Invalid user")

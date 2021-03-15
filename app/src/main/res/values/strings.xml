@@ -14,4 +14,15 @@
     <string name="title_transactions">Transacciones</string>
     <string name="title_profile">Perfil</string>
     <string name="title_logout">Cerrar sesión</string>
+    <string name="select_option">Selecciona una opción</string>
+    <string name="option_between_accounts">Entre cuentas</string>
+    <string name="option_card_less_withdrawals">Retiros sin tarjeta</string>
+    <string name="option_card_withdrawals">Retiros con tarjeta</string>
+    <string name="option_history">Historial</string>
+    <string name="buy_a_product">Adquirir un producto</string>
+    <string name="savings_account">Cuenta de Ahorros</string>
+    <string name="number_account">No. 123456789</string>
+    <string name="balance">Saldo</string>
+    <string name="balance_status">$55.000</string>
+
 </resources>

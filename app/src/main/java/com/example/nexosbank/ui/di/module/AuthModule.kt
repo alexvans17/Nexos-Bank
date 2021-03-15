@@ -1,7 +1,6 @@
 package com.example.nexosbank.ui.di.module
 
 import com.example.nexosbank.data.datasource.cloud.ApiAuthImpl
-import com.example.nexosbank.data.model.LoggedInUser
 import com.example.nexosbank.data.repository.AuthRepositoryImpl
 import com.example.nexosbank.domain.interactor.AuthInteractorImpl
 import com.example.nexosbank.ui.presenter.AuthPresenterImpl
@@ -11,10 +10,6 @@ import javax.inject.Singleton
 
 @Module
 class AuthModule {
-
-    @Provides
-    @Singleton
-    fun provideFakeUser() = LoggedInUser("", "")
 
     @Provides
     @Singleton

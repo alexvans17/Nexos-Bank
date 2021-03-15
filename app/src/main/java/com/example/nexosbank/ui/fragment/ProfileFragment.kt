@@ -20,8 +20,7 @@ class ProfileFragment : Fragment() {
     ): View? {
         notificationsViewModel =
             ViewModelProvider(this).get(NotificationsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_profile, container, false)
 
-        return root
+        return inflater.inflate(R.layout.fragment_profile, container, false)
     }
 }
