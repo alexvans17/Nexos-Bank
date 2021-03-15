@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nexos Bank</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">Bienvenido!</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_transactions">Transacciones</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_logout">Cerrar sesión</string>
+    <string name="select_option">Selecciona una opción</string>
+    <string name="option_between_accounts">Entre cuentas</string>
+    <string name="option_card_less_withdrawals">Retiros sin tarjeta</string>
+    <string name="option_card_withdrawals">Retiros con tarjeta</string>
+    <string name="option_history">Historial</string>
+    <string name="buy_a_product">Adquirir un producto</string>
+    <string name="savings_account">Cuenta de Ahorros</string>
+    <string name="number_account">No. 123456789</string>
+    <string name="balance">Saldo</string>
+    <string name="balance_status">$55.000</string>
+
+</resources>
